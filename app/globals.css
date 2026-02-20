@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+
+@layer base {
+  body {
+    @apply bg-slate-950;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
